@@ -1,4 +1,4 @@
-![image](./three-boilerplate-thumbnail.gif)
+![image](./three-boilerplate-thumbnail.png)
 <div align="center">
 <br/>
   <img src="https://img.shields.io/badge/Website-black" alt="Website">
@@ -25,3 +25,7 @@
   # Start the server 
   npm run dev
 ```
+
+## View
+- Loading video/gif bellow
+![image](./three-boilerplate-thumbnail.gif)
