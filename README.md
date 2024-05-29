@@ -1,15 +1,23 @@
-![image](./three-boilerplate-thumbnail.png)
+<a href="https://github.com/whosramoss/three-boilerplate">
+  <img alt="Coffee" src="./three-boilerplate-thumbnail.png" />
+  <h1 align="center">Three Boilerplate</h1>
+</a>
+
+<p align="center">
+  Three Boilerplate is a quick starter template for React/Typescript projects usint Three.js, designed to build dynamic and engaging web experiences.
+</p>
+
 <div align="center">
-<br/>
-  <img src="https://img.shields.io/badge/Website-black" alt="Website">
-  <img src="https://img.shields.io/badge/React-black" alt="React">
-  <img src="https://img.shields.io/badge/Tailwind-black" alt="Tailwind">
-  <img src="https://img.shields.io/badge/TypeScript-black" alt="TypeScript">
-  <img src="https://img.shields.io/badge/Vite-black" alt="Vite">
-  <img src="https://img.shields.io/badge/Three-black" alt="Three">
-  <br/><br/>
-  <a href="./three-boilerplate-thumbnail.gif" alt=video">Check the Preview</a>
+  <img src="https://img.shields.io/badge/React-563D7C?style=for-the-badge&logo=React&logoColor=fff" alt="React">
+  <img src="https://img.shields.io/badge/Tailwind-FEFEFE?style=for-the-badge&logo=tailwindcss" alt="Tailwind">
+  <img src="https://img.shields.io/badge/Typescript-007acc?style=for-the-badge&logo=typescript&logoColor=fff" alt="TypeScript">
+  <img src="https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white" alt="Three.js">
 </div>
+<br/>
+<a href="./three-boilerplate-thumbnail.gif">
+  <p align="center">Check the preview</p>
+</a>
+<br/>
 
 ## How to install
 
