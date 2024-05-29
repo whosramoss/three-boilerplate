@@ -7,7 +7,8 @@
   <img src="https://img.shields.io/badge/TypeScript-black" alt="TypeScript">
   <img src="https://img.shields.io/badge/Vite-black" alt="Vite">
   <img src="https://img.shields.io/badge/Three-black" alt="Three">
-  <br/>
+  <br/><br/>
+  <a href="./three-boilerplate-thumbnail.gif" alt=video">Check the Preview</a>
 </div>
 
 ## How to install
@@ -25,7 +26,3 @@
   # Start the server 
   npm run dev
 ```
-
-## View
-- Loading video/gif bellow
-![image](./three-boilerplate-thumbnail.gif)
