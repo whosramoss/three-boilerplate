@@ -1,0 +1,133 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Supreme-Variable";
+  src: url("/fonts/Supreme-Variable.woff2") format("woff2"),
+    url("/fonts/Supreme-Variable.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --background-color: #ddd;
+  --primary-text-color: #000;
+  --secondary-text-color: #333;
+  --link-text-color: #111;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #0f0f11;
+    --primary-text-color: #fff;
+    --secondary-text-color: #aaa;
+    --link-text-color: #ccc;
+  }
+}
+
+body,
+html {
+  @apply w-full h-full;
+  
+}
+
+body {
+  font-family: "Supreme-Variable";
+  @apply text-base font-normal leading-normal text-[color:var(--primary-text-color)] bg-[color:var(--background-color)];
+}
+
+
+h1,
+h2 {
+  @apply -tracking-wide font-bold;
+}
+
+h2 {
+  @apply mb-1;
+}
+
+a,
+p,
+span,
+ul {
+  @apply tracking-[-0.01em];
+}
+
+p {
+  @apply mb-4;
+}
+
+a,
+span,
+ul {
+  @apply text-[color:var(--link-text-color)];
+}
+
+p,
+span,
+ul {
+  @apply text-[color:var(--secondary-text-color)];
+}
+
+ul {
+  @apply list-disc;
+}
+
+li {
+  @apply ml-6;
+}
+
+main {
+  @apply relative h-full mb-8 mx-8;
+}
+
+article,
+header {
+  @apply mb-12;
+}
+
+img {
+  @apply bg-[color:var(--primary-text-color)] w-full max-w-[120px] mb-8;
+}
+
+footer {
+  @apply text-xs mb-16;
+}
+
+#home {
+  @apply absolute;
+}
+
+#useful-links ul li {
+  @apply mb-6;
+}
+
+@media screen and (min-width: 32rem) {
+  body {
+    @apply text-2xl;
+  }
+
+  h2 {
+    @apply mb-4;
+  }
+
+  main {
+    @apply max-w-lg  mb-20 mx-20;
+  }
+
+  article,
+  footer,
+  header {
+    @apply mb-20;
+  }
+
+  img {
+    @apply bg-[color:var(--primary-text-color)] max-w-[180px] mb-16;
+  }
+
+  footer {
+    @apply text-base;
+  }
+}

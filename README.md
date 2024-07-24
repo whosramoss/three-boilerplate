@@ -1,5 +1,5 @@
 <a href="https://github.com/whosramoss/three-boilerplate">
-  <img alt="Coffee" src="./three-boilerplate-thumbnail.png" />
+  <img alt="three-boilerplate" src="./public/images/thumbnail.png" />
   <h1 align="center">Three Boilerplate</h1>
 </a>
 
@@ -15,9 +15,8 @@
   <img src="https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white" alt="Three.js">
 </div>
 <br/>
-<a href="./three-boilerplate-thumbnail.gif">
-  <p align="center">Check the preview</p>
-</a>
+
+
 <br/>
 
 ## How to install
@@ -34,4 +33,10 @@
 
   # Start the server 
   npm run dev
+
+```
+## How to build
+
+```bash
+  npm run build
 ```
