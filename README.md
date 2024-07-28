@@ -38,5 +38,9 @@
 ## How to build
 
 ```bash
+ # Simple buiçd
   npm run build
+
+  # Build with source map disabled
+  npm run build-sourcemap-disabled
 ```
