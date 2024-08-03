@@ -44,3 +44,13 @@
   # Build with source map disabled
   npm run build-sourcemap-disabled
 ```
+
+## Implement Apache HTTP Server file to refresh page with React Router on Build
+Create a ```.htaccess``` file on root and implement the code above :
+
+```bash
+Options -MultiViews
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.html [QSA,L]
+```
