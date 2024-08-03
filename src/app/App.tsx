@@ -1,19 +1,10 @@
-
-import Layout from "./layout";
-import HomePage from "./HomePage";
-import NotFound from "./notFound";
-import { Route, Routes } from "react-router-dom";
+import HomePage from "./pages/HomePage";
+import NotFound from "./pages/NotFoundPage";
+import { useRoutes } from "react-router-dom";
 
 export default function App() {
-  return (
-    <>
-      <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<HomePage />} />
-          <Route path="*" element={<NotFound />} />
-        </Route>
-      </Routes>
-    </>
-  );
-};
-
+  return useRoutes([
+    { path: "/", element: <HomePage /> },
+    { path: "*", element: <NotFound /> },
+  ]);
+}

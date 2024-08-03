@@ -16,7 +16,6 @@
 </div>
 <br/>
 
-
 <br/>
 
 ## How to install
@@ -31,10 +30,11 @@
   # Install dependencies
   npm install
 
-  # Start the server 
+  # Start the server
   npm run dev
 
 ```
+
 ## How to build
 
 ```bash
@@ -46,7 +46,8 @@
 ```
 
 ## Implement Apache HTTP Server file to refresh page with React Router on Build
-Create a ```.htaccess``` file on root and implement the code above :
+
+Create a `.htaccess` file on root and implement the code above :
 
 ```bash
 Options -MultiViews

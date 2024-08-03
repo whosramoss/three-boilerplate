@@ -1,5 +1,5 @@
 export type TPosition = {
-    left: number;
-    width: number;
-    opacity: number;
+  left: number;
+  width: number;
+  opacity: number;
 };
