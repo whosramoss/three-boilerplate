@@ -50,8 +50,18 @@
 Create a `.htaccess` file on root and implement the code above :
 
 ```bash
-Options -MultiViews
-RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^ index.html [QSA,L]
+<IfModule mod_headers.c>
+    Header set Cache-Control "no-cache, no-store, must-revalidate"
+    Header set Pragma "no-cache"
+    Header set Expires 0
+</IfModule>
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+RewriteRule ^ index.html [L]
+
+ErrorDocument 404 /404.html
+ErrorDocument 403 /404.html
 ```
